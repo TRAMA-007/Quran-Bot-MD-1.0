@@ -8,8 +8,8 @@ export default {
     bot: {
         name: 'مُــــصْــــحَــــفْ Ai 1.0.0 🌼🤍',
         prefix: ['/'],   // Command prefixes (e.g., !help, .help, /help)
-        owner: '249992134574',                // Your phone number
-        ownerLid: '88858947514543',           // Your WhatsApp LID (Linked ID)
+        owner: 'YOUR NUMBER',                // Your phone number
+        ownerLid: 'YOUR LID ',           // Your WhatsApp LID (Linked ID)
     },
 
     // Message Settings
@@ -46,7 +46,8 @@ export default {
 
     // Sticker Settings
     sticker: {
-        packName: 'Yuki Ai',
+        packName: 'مـصـحـف',
         author: 'TRAMAZOOL 💊',
     }
 };
+
