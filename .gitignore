@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Auth files (contains your WhatsApp session)
+auth_info/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Archives
+*.zip
