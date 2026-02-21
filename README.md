@@ -119,26 +119,6 @@ quran-bot/
     └── seenUsers.js      # Seen users tracker
 ```
 
----
-
-## 🛠️ Adding New Commands
-
-Commands are registered in `commands/index.js` using the `registerCommand` helper:
-
-```js
-registerCommand('mycommand', {
-    aliases: ['مرادف'],
-    description: 'My command description',
-    descriptionAr: 'وصف الأمر بالعربية',
-    category: 'general', // general | fun | media | quran | owner
-    async execute(sock, msg, args, sender) {
-        await sock.sendMessage(sender, { text: 'Hello! 👋' });
-    }
-});
-```
-
----
-
 ## 🔒 Security Notes
 
 - **Never share or commit your `auth_info/` folder** — it holds your WhatsApp session credentials.
@@ -157,3 +137,4 @@ MIT License — free to use, modify, and distribute.
 
 Made with 🤍 for the sake of Allah  
 **GitHub:** [github.com/Trama-007](https://github.com/Trama-007)
+
